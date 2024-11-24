@@ -6,14 +6,14 @@ const portfolioData = {
     // profilePic: ""
     social: {
         github: "https://github.com/yourusername",
-        linkedin: "https://linkedin.com/in/yourusername",
+        linkedin: "https://www.linkedin.com/in/dhayalan-balasubramanian-15a662263/",
     },
     projects: [
         {
-            title: "Project 1",
-            description: "A full-stack web application built with React and Node.js",
+            title: "Blood Oxygen Saturation Monitor",
+            description: "First ever pic 24 libarary for this sensor utilizing I2C communication.",
             image: "/api/placeholder/400/200",
-            technologies: ["React", "Node.js", "MongoDB"],
+            technologies: ["C", "12C Communication", "Assembly"],
             github: "https://github.com/yourusername/project1",
             demo: "https://project1-demo.com"
         },
