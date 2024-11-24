@@ -1,12 +1,12 @@
 // Data
 const portfolioData = {
-    name: "Your Name",
-    role: "Software Developer",
-    about: "A passionate developer with expertise in JavaScript, Python, and Web Development",
+    name: "Dhayalan Balasubramanian",
+    role: "Computer Engineer",
+    about: "A passionate developer with expertise in....",
+    // profilePic: ""
     social: {
         github: "https://github.com/yourusername",
         linkedin: "https://linkedin.com/in/yourusername",
-        twitter: "https://twitter.com/yourusername"
     },
     projects: [
         {
