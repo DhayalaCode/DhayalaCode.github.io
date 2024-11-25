@@ -3,7 +3,7 @@ const portfolioData = {
     name: "Dhayalan Balasubramanian",
     role: "Computer Engineer",
     about: "A passionate developer with expertise in....",
-    // profilePic: ""
+    profilePic: "pictures/4754648_BALASUBRAMANIAN, DHAYA_2381 (2).JPG",
     social: {
         github: "https://github.com/yourusername",
         linkedin: "https://www.linkedin.com/in/dhayalan-balasubramanian-15a662263/",
@@ -156,7 +156,15 @@ function updateUserInfo() {
     document.querySelector('#user-name').textContent = portfolioData.name;
     document.querySelector('#user-role').textContent = portfolioData.role;
     document.querySelector('#user-about').textContent = portfolioData.about;
-    
+
+    // Set profile picture if available
+    const profilePic = document.querySelector('#profile-pic');
+    if (portfolioData.profilePic) {
+        profilePic.src = portfolioData.profilePic;
+    } else {
+        profilePic.src = 'pictures/4754648_BALASUBRAMANIAN, DHAYA_2381 (2).JPG'; // Placeholder if no picture is set
+    }
+
     // Update social links
     Object.entries(portfolioData.social).forEach(([platform, url]) => {
         const link = document.querySelector(`#${platform}-link`);
