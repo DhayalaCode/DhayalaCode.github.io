@@ -2,7 +2,7 @@
 const portfolioData = {
     name: "Dhayalan Balasubramanian",
     role: "Computer Engineer",
-    about: "A passionate developer with expertise in....",
+    about: "A passionate computer engineer...",
     profilePic: "pictures/4754648_BALASUBRAMANIAN, DHAYA_2381 (2).JPG",
     social: {
         github: "https://github.com/yourusername",
@@ -11,11 +11,11 @@ const portfolioData = {
     projects: [
         {
             title: "Blood Oxygen Saturation Monitor",
-            description: "First ever pic 24 libarary for this sensor utilizing I2C communication.",
-            image: "/api/placeholder/400/200",
+            description: "First ever PIC 24 library for this sensor utilizing I2C communication.",
+            image: "pictures/Screenshot 2024-11-19 at 9.45.29 AM.png",
             technologies: ["C", "12C Communication", "Assembly"],
-            github: "https://github.com/yourusername/project1",
-            demo: "https://project1-demo.com"
+            github: "https://github.com/DhayalaCode/Pulse-Ox-Monitor",
+            demo: "https://github.com/DhayalaCode/Pulse-Ox-Monitor"
         },
         {
             title: "Project 2",
